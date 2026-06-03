@@ -1,0 +1,9 @@
+# Copy this file to `.dev.vars` for local development.
+# Never commit `.dev.vars` (it is gitignored).
+
+# Hypixel API key (server-side secret)
+HYPIXEL_API_KEY="replace-me"
+
+# Hashed guild/bot API keys (server-side secret)
+# NOTE: sha256 must be lowercase hex.
+GUILD_API_KEYS='{"keys":[{"id":"guild-a","sha256":"replace-with-lowercase-sha256-hex"}]}'
