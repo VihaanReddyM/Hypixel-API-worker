@@ -65,6 +65,8 @@ web_modules/
 .dev.vars*
 .env*
 
+guild_api.json
+
 # Optional npm cache directory
 
 .npm
